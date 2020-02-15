@@ -21,9 +21,15 @@ public class Logger {
             e.printStackTrace();
         }
     }
-    public void write(String log){
+
+    public static Logger getInstance() {
+        return instance;
+    }
+
+    public void log(String log){
         try {
             fileWriter.write(log);
+            fileWriter.flush();
         } catch (IOException e) {
             e.printStackTrace();
         }

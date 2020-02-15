@@ -1,6 +1,7 @@
 package Singleton;
 
 import Singleton.IDGenerator.IDGenerator;
+import Singleton.Logger.Logger;
 
 /**
  * @author zjbao123
@@ -12,7 +13,7 @@ public class test {
         long id = 0;
         for(int i =0;i<10;i++){
             id = IDGenerator.getInstance().getId();
-            System.out.println(id);
+            Logger.getInstance().log("ID: "+id+"\n");
         }
     }
 }

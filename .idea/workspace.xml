@@ -2,20 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8de1ee58-faf5-42e4-b5a8-191404fd5fd7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Singleton/IDGenerator/IDGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Singleton/Logger/Logger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Singleton/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ApiAuthenticator/Interface/ApiAuthenticator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ApiAuthenticator/Interface/ApiAuthenticator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ApiAuthenticator/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ApiAuthenticator/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ApiAuthenticator/Repository/CredentialStorage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ApiAuthenticator/Repository/CredentialStorage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ApiAuthenticator/Repository/DefaultCredentialStorageImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ApiAuthenticator/Repository/DefaultCredentialStorageImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ApiAuthenticator/Repository/MysqlCredentialStorageImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ApiAuthenticator/Repository/MysqlCredentialStorageImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ApiAuthenticator/domain/ApiRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ApiAuthenticator/domain/ApiRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ApiAuthenticator/domain/AuthToken.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ApiAuthenticator/domain/AuthToken.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ApiAuthenticator/impl/ApiAuthenticatorImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ApiAuthenticator/impl/ApiAuthenticatorImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ApiAuthenticator/util/MD5Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ApiAuthenticator/util/MD5Util.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ApiAuthenticator/util/UrlUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ApiAuthenticator/util/UrlUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PatternDesign/Singleton/test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PatternDesign/Singleton/test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Singleton/Logger/Logger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Singleton/Logger/Logger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Singleton/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Singleton/test.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,6 +29,7 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -124,7 +116,7 @@
       <option name="presentableId" value="Default" />
       <updated>1581757203785</updated>
       <workItem from="1581757205008" duration="1248000" />
-      <workItem from="1581758790106" duration="1604000" />
+      <workItem from="1581758790106" duration="1973000" />
     </task>
     <servers />
   </component>
@@ -143,5 +135,8 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
