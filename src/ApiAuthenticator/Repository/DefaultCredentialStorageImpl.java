@@ -1,4 +1,4 @@
-package com.Pattern.design.Repository;
+package ApiAuthenticator.Repository;
 
 /**
  * Created by Enzo Cotter on 2020/2/4.

@@ -1,4 +1,4 @@
-package com.Pattern.design.util;
+package ApiAuthenticator.util;
 
 import java.util.HashMap;
 import java.util.Map;

@@ -1,4 +1,4 @@
-package com.Pattern.design.Repository;
+package ApiAuthenticator.Repository;
 
 
 public interface CredentialStorage {

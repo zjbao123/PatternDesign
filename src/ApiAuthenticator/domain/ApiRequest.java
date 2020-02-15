@@ -1,6 +1,6 @@
-package com.Pattern.design.domain;
+package ApiAuthenticator.domain;
 
-import com.Pattern.design.util.UrlUtil;
+import ApiAuthenticator.util.UrlUtil;
 
 import java.util.Map;
 

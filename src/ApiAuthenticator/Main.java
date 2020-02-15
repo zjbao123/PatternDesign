@@ -1,6 +1,6 @@
-package com.Pattern.design;
+package ApiAuthenticator;
 
-import com.Pattern.design.impl.ApiAuthenticatorImpl;
+import ApiAuthenticator.impl.ApiAuthenticatorImpl;
 
 public class Main {
 

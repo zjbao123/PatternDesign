@@ -1,10 +1,10 @@
-package com.Pattern.design.impl;
+package ApiAuthenticator.impl;
 
-import com.Pattern.design.Interface.ApiAuthenticator;
-import com.Pattern.design.Repository.CredentialStorage;
-import com.Pattern.design.Repository.MysqlCredentialStorageImpl;
-import com.Pattern.design.domain.ApiRequest;
-import com.Pattern.design.domain.AuthToken;
+import ApiAuthenticator.Interface.ApiAuthenticator;
+import ApiAuthenticator.Repository.CredentialStorage;
+import ApiAuthenticator.Repository.MysqlCredentialStorageImpl;
+import ApiAuthenticator.domain.ApiRequest;
+import ApiAuthenticator.domain.AuthToken;
 
 public class ApiAuthenticatorImpl implements ApiAuthenticator {
     CredentialStorage credentialStorage;

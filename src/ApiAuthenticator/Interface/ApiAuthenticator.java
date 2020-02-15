@@ -1,6 +1,6 @@
-package com.Pattern.design.Interface;
+package ApiAuthenticator.Interface;
 
-import com.Pattern.design.domain.ApiRequest;
+import ApiAuthenticator.domain.ApiRequest;
 
 public interface ApiAuthenticator {
     void auth(String url);

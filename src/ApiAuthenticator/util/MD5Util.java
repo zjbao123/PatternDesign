@@ -1,4 +1,4 @@
-package com.Pattern.design.util;
+package ApiAuthenticator.util;
 
 import java.math.BigInteger;
 import java.security.MessageDigest;

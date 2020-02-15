@@ -1,6 +1,6 @@
-package com.Pattern.design.domain;
+package ApiAuthenticator.domain;
 
-import com.Pattern.design.util.MD5Util;
+import ApiAuthenticator.util.MD5Util;
 
 import java.util.Date;
 import java.util.Map;
