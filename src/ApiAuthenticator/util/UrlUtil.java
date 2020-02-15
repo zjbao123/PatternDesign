@@ -4,7 +4,9 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * Created by Enzo Cotter on 2020/2/3.
+ * @author zjbao123
+ * @version 1.0
+ * @since 2020-02-15 17:26:46
  */
 public class UrlUtil {
     public static class UrlEntity{

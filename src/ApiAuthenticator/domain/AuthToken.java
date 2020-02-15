@@ -5,6 +5,13 @@ import ApiAuthenticator.util.MD5Util;
 import java.util.Date;
 import java.util.Map;
 
+/**
+ * @author zjbao123
+ * @version 1.0
+ * @since 2020-02-15 17:26:46
+ */
+
+
 public class AuthToken {
     private static final long DEFAULT_EXPRIED_TIME_INTERVAL = 100 * 60 * 1000;
     private String token;

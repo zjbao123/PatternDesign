@@ -6,6 +6,13 @@ import ApiAuthenticator.Repository.MysqlCredentialStorageImpl;
 import ApiAuthenticator.domain.ApiRequest;
 import ApiAuthenticator.domain.AuthToken;
 
+/**
+ * @author zjbao123
+ * @version 1.0
+ * @since 2020-02-15 17:26:46
+ */
+
+
 public class ApiAuthenticatorImpl implements ApiAuthenticator {
     CredentialStorage credentialStorage;
 
