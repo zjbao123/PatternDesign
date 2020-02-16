@@ -1,6 +1,6 @@
 package Singleton;
 
-import Singleton.IDGenerator.IDGenerator;
+import Singleton.IDGenerator.IdGeneratorEnum;
 import Singleton.Logger.Logger;
 
 /**
@@ -12,7 +12,7 @@ public class test {
     public static void main(String[] args) {
         long id = 0;
         for(int i =0;i<10;i++){
-            id = IDGenerator.getInstance().getId();
+            id = IdGeneratorEnum.INSTANCE.getId();
             Logger.getInstance().log("ID: "+id+"\n");
         }
     }
