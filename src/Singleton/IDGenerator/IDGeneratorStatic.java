@@ -6,6 +6,7 @@ import java.util.concurrent.atomic.AtomicLong;
  * @author zjbao123
  * @version 1.0
  * @since 2020-02-16 23:27:22
+ * 单例模式-静态式
  */
 public class IDGeneratorStatic {
     private AtomicLong id =new AtomicLong(0);

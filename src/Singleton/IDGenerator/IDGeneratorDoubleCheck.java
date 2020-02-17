@@ -6,6 +6,7 @@ import java.util.concurrent.atomic.AtomicLong;
  * @author zjbao123
  * @version 1.0
  * @since 2020-02-16 23:19:52
+ * 单例模式-双重检测
  */
 public class IDGeneratorDoubleCheck {
     private AtomicLong id = new AtomicLong(0);

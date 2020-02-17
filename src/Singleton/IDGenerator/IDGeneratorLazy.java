@@ -6,6 +6,7 @@ import java.util.concurrent.atomic.AtomicLong;
  * @author zjbao123
  * @version 1.0
  * @since 2020-02-16 23:15:23
+ * 单例模式-懒汉式
  */
 public class IDGeneratorLazy {
     private AtomicLong id = new AtomicLong(0);
