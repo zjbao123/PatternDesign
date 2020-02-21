@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8de1ee58-faf5-42e4-b5a8-191404fd5fd7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Singleton/IDGenerator/IDGeneratorWithParams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Singleton/IDGenerator/IdGeneratorSingleThread.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Singleton/IDGenerator/IDGeneratorDoubleCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Singleton/IDGenerator/IDGeneratorDoubleCheck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Singleton/IDGenerator/IDGeneratorHungry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Singleton/IDGenerator/IDGeneratorHungry.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Singleton/IDGenerator/IDGeneratorLazy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Singleton/IDGenerator/IDGeneratorLazy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Singleton/IDGenerator/IDGeneratorStatic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Singleton/IDGenerator/IDGeneratorStatic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Singleton/IDGenerator/IdGeneratorEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Singleton/IDGenerator/IdGeneratorEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Singleton/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Singleton/test.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -126,6 +120,7 @@
       <workItem from="1581865886597" duration="1943000" />
       <workItem from="1581868035738" duration="362000" />
       <workItem from="1581950676015" duration="1943000" />
+      <workItem from="1582300153105" duration="280000" />
     </task>
     <servers />
   </component>
