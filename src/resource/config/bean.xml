@@ -4,6 +4,6 @@
     </bean>
     <bean id="redisCounter" class="DependencyInjection.RedisCounter">
         <constructor-arg type="string" value="127.0.0.1"/>
-        <constructor-arg type="int" value="1">
+        <constructor-arg type="int" value="1"/>
     </bean>
 </bean>

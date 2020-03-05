@@ -2,19 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8de1ee58-faf5-42e4-b5a8-191404fd5fd7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/DependencyInjection/ApplicationContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DependencyInjection/BeanConfigParser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DependencyInjection/BeanDefinition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DependencyInjection/BeansFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DependencyInjection/ClassPathXmlApplicationContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DependencyInjection/Exception/BeanCreationFailureException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DependencyInjection/Exception/NoSuchBeanDefinitionException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DependencyInjection/RateLimiter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DependencyInjection/RedisCounter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DependencyInjection/VisibleForTesting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DependencyInjection/XmlBeanConfigParser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resource/config/bean.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DependencyInjection/Exception/BeanCreationFailureException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DependencyInjection/XmlBeanConfigParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DependencyInjection/XmlBeanConfigParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/config/bean.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/resource/config/bean.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -143,7 +134,7 @@
       <workItem from="1582339222868" duration="341000" />
       <workItem from="1583336519796" duration="1823000" />
       <workItem from="1583420556468" duration="996000" />
-      <workItem from="1583422610863" duration="922000" />
+      <workItem from="1583422610863" duration="2347000" />
     </task>
     <servers />
   </component>
