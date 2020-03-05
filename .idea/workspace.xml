@@ -2,8 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8de1ee58-faf5-42e4-b5a8-191404fd5fd7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/DependencyInjection/ApplicationContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DependencyInjection/BeanConfigParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DependencyInjection/BeanDefinition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DependencyInjection/BeansFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DependencyInjection/ClassPathXmlApplicationContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DependencyInjection/Exception/BeanCreationFailureException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DependencyInjection/Exception/NoSuchBeanDefinitionException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DependencyInjection/RateLimiter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DependencyInjection/RedisCounter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DependencyInjection/VisibleForTesting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DependencyInjection/XmlBeanConfigParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resource/config/bean.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Singleton/IDGenerator/IdGeneratorSingleThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Singleton/IDGenerator/IDGeneratorSingleThread.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,6 +28,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
+        <option value="AnnotationType" />
         <option value="Class" />
       </list>
     </option>
@@ -33,7 +46,13 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="DependencyInjection" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -120,7 +139,11 @@
       <workItem from="1581865886597" duration="1943000" />
       <workItem from="1581868035738" duration="362000" />
       <workItem from="1581950676015" duration="1943000" />
-      <workItem from="1582300153105" duration="1742000" />
+      <workItem from="1582300153105" duration="1817000" />
+      <workItem from="1582339222868" duration="341000" />
+      <workItem from="1583336519796" duration="1823000" />
+      <workItem from="1583420556468" duration="996000" />
+      <workItem from="1583422610863" duration="922000" />
     </task>
     <servers />
   </component>
