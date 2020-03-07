@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8de1ee58-faf5-42e4-b5a8-191404fd5fd7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/DependencyInjection/demo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DependencyInjection/Exception/BeanCreationFailureException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PatternDesign.iml" beforeDir="false" afterPath="$PROJECT_DIR$/PatternDesign.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DependencyInjection/BeanConfigParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DependencyInjection/BeanConfigParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DependencyInjection/BeanDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DependencyInjection/BeanDefinition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DependencyInjection/BeansFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DependencyInjection/BeansFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DependencyInjection/ClassPathXmlApplicationContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DependencyInjection/ClassPathXmlApplicationContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DependencyInjection/RedisCounter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DependencyInjection/RedisCounter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DependencyInjection/XmlBeanConfigParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DependencyInjection/XmlBeanConfigParser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/resource/config/bean.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/resource/config/bean.xml" afterDir="false" />
     </list>
@@ -38,7 +44,10 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -57,7 +66,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.demo">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -66,6 +75,20 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DependencyInjection.demo" />
+      <module name="PatternDesign" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DependencyInjection.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -111,6 +134,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.demo" />
         <item itemvalue="Application.test" />
       </list>
     </recent_temporary>
@@ -134,7 +158,9 @@
       <workItem from="1582339222868" duration="341000" />
       <workItem from="1583336519796" duration="1823000" />
       <workItem from="1583420556468" duration="996000" />
-      <workItem from="1583422610863" duration="2347000" />
+      <workItem from="1583422610863" duration="2781000" />
+      <workItem from="1583453984475" duration="322000" />
+      <workItem from="1583581632797" duration="7360000" />
     </task>
     <servers />
   </component>
@@ -156,5 +182,23 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DependencyInjection/XmlBeanConfigParser.java</url>
+          <line>62</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="nodes.getLength()" language="JAVA" />
+        <watch expression="element.getAttribute(&quot;ref&quot;)." language="JAVA" />
+        <watch expression="element.getAttribute(&quot;ref&quot;)." language="JAVA" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>

@@ -16,7 +16,7 @@ public class BeansFactory {
     private ConcurrentHashMap<String, Object> singletonObjects = new ConcurrentHashMap<>();
     private ConcurrentHashMap<String, BeanDefinition> beanDefinitions = new ConcurrentHashMap<>();
 
-    public void addBeanDefinitions(List<BeanDefinition> beanDefinitionList) throws ReflectiveOperationException {
+    public void addBeanDefinitions(List<BeanDefinition> beanDefinitionList) {
         for (BeanDefinition beanDefinition : beanDefinitionList) {
             this.beanDefinitions.putIfAbsent(beanDefinition.getId(), beanDefinition);
         }

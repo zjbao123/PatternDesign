@@ -1,7 +1,9 @@
 package DependencyInjection;
 
+
 import java.util.ArrayList;
 import java.util.List;
+
 
 public class BeanDefinition {
     private String id;
@@ -10,12 +12,9 @@ public class BeanDefinition {
     private Scope scope = Scope.SINGLETON;
     private boolean lazyInit = false;
 
-    public BeanDefinition(String id, String className, List<ConstructorArg> constructorArgs, Scope scope, boolean lazyInit) {
+    public BeanDefinition(String id, String className) {
         this.id = id;
         this.className = className;
-        this.constructorArgs = constructorArgs;
-        this.scope = scope;
-        this.lazyInit = lazyInit;
     }
 
     public BeanDefinition() {
@@ -75,41 +74,77 @@ public class BeanDefinition {
         private boolean isRef;
         private Class type;
         private Object arg;
-        // 省略必要的getter/setter/constructors
-
-        public ConstructorArg() {
-        }
-
-        public ConstructorArg(boolean isRef, Class type, Object arg) {
-            this.isRef = isRef;
-            this.type = type;
-            this.arg = arg;
-        }
 
         public boolean getIsRef() {
             return isRef;
-        }
-
-        public void setIsRef(boolean ref) {
-            isRef = ref;
         }
 
         public Class getType() {
             return type;
         }
 
-        public void setType(Class type) {
-            this.type = type;
-        }
-
         public Object getArg() {
             return arg;
         }
 
-        public void setArg(Object arg) {
-            this.arg = arg;
+        public ConstructorArg(Builder builder) {
+            this.isRef = builder.getIsRef();
+            this.type = builder.getType();
+            this.arg = builder.getArg();
         }
 
 
+        public static class Builder {
+            private boolean isRef = false;
+            private Class type;
+            private Object arg;
+
+            public ConstructorArg build() {
+                if (this.isRef) {
+                    if (this.type != null) {
+                        throw new IllegalArgumentException("当参数为引用类型时，无需设置type参数！");
+                    }
+                    if (!(arg instanceof String)) {
+                        throw new IllegalArgumentException("请设置引用ID");
+
+                    }
+
+                } else {
+                    if (this.type == null || this.arg == null) {
+                        throw new IllegalArgumentException("type 和 arg 必填！");
+                    }
+                }
+                return new ConstructorArg(this);
+            }
+
+            public boolean getIsRef() {
+                return isRef;
+            }
+
+            public Builder setIsRef(boolean ref) {
+                isRef = ref;
+                return this;
+            }
+
+            public Class getType() {
+                return type;
+            }
+
+            public Builder setType(Class type) {
+                this.type = type;
+                return this;
+            }
+
+            public Object getArg() {
+                return arg;
+            }
+
+            public Builder setArg(Object arg) {
+                this.arg = arg;
+                return this;
+            }
+
+        }
     }
+
 }

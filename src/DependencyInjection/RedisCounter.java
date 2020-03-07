@@ -6,15 +6,20 @@ package DependencyInjection;
  * @since 2020-03-05 23:49:30
  */
 public class RedisCounter {
-    private int age;
+    private String ipAddress;
     private String name;
 
-    public int getAge() {
-        return age;
+    public RedisCounter(String ipAddress, String name) {
+        this.ipAddress = ipAddress;
+        this.name = name;
     }
 
-    public void setAge(int age) {
-        this.age = age;
+    public String getIpAddress() {
+        return ipAddress;
+    }
+
+    public void setIpAddress(String ipAddress) {
+        this.ipAddress = ipAddress;
     }
 
     public String getName() {
@@ -22,11 +27,6 @@ public class RedisCounter {
     }
 
     public void setName(String name) {
-        this.name = name;
-    }
-
-    public RedisCounter(String name,int age) {
-        this.age = age;
         this.name = name;
     }
 }
