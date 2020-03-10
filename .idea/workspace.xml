@@ -2,16 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8de1ee58-faf5-42e4-b5a8-191404fd5fd7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/DependencyInjection/demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DynamicProxy/IUserLoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DynamicProxy/UserLoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DynamicProxy/UserLoginProxy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PatternDesign.iml" beforeDir="false" afterPath="$PROJECT_DIR$/PatternDesign.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DependencyInjection/BeanConfigParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DependencyInjection/BeanConfigParser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DependencyInjection/BeanDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DependencyInjection/BeanDefinition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DependencyInjection/BeansFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DependencyInjection/BeansFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DependencyInjection/ClassPathXmlApplicationContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DependencyInjection/ClassPathXmlApplicationContext.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DependencyInjection/RedisCounter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DependencyInjection/RedisCounter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DependencyInjection/XmlBeanConfigParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DependencyInjection/XmlBeanConfigParser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resource/config/bean.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/resource/config/bean.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,8 +19,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="AnnotationType" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -66,9 +60,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.demo">
+  <component name="RunManager" selected="Application.UserLoginProxy">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserLoginProxy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DynamicProxy.UserLoginProxy" />
+      <module name="PatternDesign" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DynamicProxy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -134,6 +142,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.UserLoginProxy" />
         <item itemvalue="Application.demo" />
         <item itemvalue="Application.test" />
       </list>
@@ -160,7 +169,8 @@
       <workItem from="1583420556468" duration="996000" />
       <workItem from="1583422610863" duration="2781000" />
       <workItem from="1583453984475" duration="322000" />
-      <workItem from="1583581632797" duration="7360000" />
+      <workItem from="1583581632797" duration="7500000" />
+      <workItem from="1583852775685" duration="1019000" />
     </task>
     <servers />
   </component>
