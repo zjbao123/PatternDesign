@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8de1ee58-faf5-42e4-b5a8-191404fd5fd7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/DynamicProxy/IUserLoginController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DynamicProxy/UserLoginController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DynamicProxy/UserLoginProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RefactorCode/Movie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RefactorCode/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RefactorCode/Rental.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -170,7 +170,8 @@
       <workItem from="1583422610863" duration="2781000" />
       <workItem from="1583453984475" duration="322000" />
       <workItem from="1583581632797" duration="7500000" />
-      <workItem from="1583852775685" duration="1019000" />
+      <workItem from="1583852775685" duration="1087000" />
+      <workItem from="1584977015228" duration="757000" />
     </task>
     <servers />
   </component>
