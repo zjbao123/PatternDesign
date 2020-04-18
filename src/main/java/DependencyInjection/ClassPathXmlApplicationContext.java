@@ -1,5 +1,6 @@
 package DependencyInjection;
 
+
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.List;
@@ -9,7 +10,7 @@ import java.util.List;
  * @version 1.0
  * @since 2020-03-04 23:47:15
  */
-public class ClassPathXmlApplicationContext implements  ApplicationContext{
+public class ClassPathXmlApplicationContext implements ApplicationContext {
 
 
     private BeansFactory beansFactory;

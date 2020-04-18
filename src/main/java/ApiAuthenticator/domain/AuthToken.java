@@ -2,9 +2,6 @@ package ApiAuthenticator.domain;
 
 import ApiAuthenticator.util.MD5Util;
 
-import java.util.Date;
-import java.util.Map;
-
 /**
  * @author zjbao123
  * @version 1.0

@@ -8,7 +8,7 @@ package ApiAuthenticator.Repository;
  */
 
 
-public class DefaultCredentialStorageImpl implements CredentialStorage{
+public class DefaultCredentialStorageImpl implements CredentialStorage {
 
     @Override
     public String getPasswordFromUserId(String userId) {

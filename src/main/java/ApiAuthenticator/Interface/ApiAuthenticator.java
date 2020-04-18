@@ -1,6 +1,7 @@
 package ApiAuthenticator.Interface;
 
-import ApiAuthenticator.domain.ApiRequest;
+
+import main.java.ApiAuthenticator.domain.ApiRequest;
 
 /**
  * @author zjbao123

@@ -8,8 +8,8 @@ package DependencyInjection;
 public class demo {
     public static void main(String[] args) {
         try {
-            ApplicationContext applicationContext=new ClassPathXmlApplicationContext("config/bean.xml");
-            RedisCounter redisCounter = (RedisCounter)applicationContext.getBean("redisCounter");
+           ApplicationContext applicationContext=new ClassPathXmlApplicationContext("config/bean.xml");
+           RedisCounter redisCounter = (RedisCounter)applicationContext.getBean("redisCounter");
             System.out.println(redisCounter.getName());
         }
         catch (Exception e){

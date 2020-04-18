@@ -1,9 +1,9 @@
 package ApiAuthenticator.impl;
 
+
 import ApiAuthenticator.Interface.ApiAuthenticator;
 import ApiAuthenticator.Repository.CredentialStorage;
 import ApiAuthenticator.Repository.MysqlCredentialStorageImpl;
-import ApiAuthenticator.domain.ApiRequest;
 import ApiAuthenticator.domain.AuthToken;
 
 /**
@@ -27,12 +27,12 @@ public class ApiAuthenticatorImpl implements ApiAuthenticator {
 
     @Override
     public void auth(String url) {
-        ApiRequest apiRequest = ApiRequest.getRequestFromURL(url);
+        main.java.ApiAuthenticator.domain.ApiRequest apiRequest = main.java.ApiAuthenticator.domain.ApiRequest.getRequestFromURL(url);
         auth(apiRequest);
     }
 
     @Override
-    public void auth(ApiRequest apiRequest) {
+    public void auth(main.java.ApiAuthenticator.domain.ApiRequest apiRequest) {
         AuthToken authToken = new AuthToken(apiRequest.getToken(), apiRequest.getTimestamp());
         if (authToken.isExpired()) {
             throw new RuntimeException("token is expired!");

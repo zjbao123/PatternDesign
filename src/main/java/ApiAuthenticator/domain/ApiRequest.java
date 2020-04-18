@@ -1,4 +1,4 @@
-package ApiAuthenticator.domain;
+package main.java.ApiAuthenticator.domain;
 
 import ApiAuthenticator.util.UrlUtil;
 
