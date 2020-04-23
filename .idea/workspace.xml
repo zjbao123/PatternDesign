@@ -6,8 +6,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8de1ee58-faf5-42e4-b5a8-191404fd5fd7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/RefactorCode/ChildrenPrice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/RefactorCode/NewReleasePrice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/RefactorCode/Price.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/RefactorCode/RegularPrice.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/refactorcode/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/refactorcode/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/refactorcode/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/refactorcode/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -229,7 +233,7 @@
       <workItem from="1587648302396" duration="49000" />
       <workItem from="1587648364671" duration="144000" />
       <workItem from="1587648524329" duration="291000" />
-      <workItem from="1587648851514" duration="6491000" />
+      <workItem from="1587648851514" duration="7644000" />
     </task>
     <servers />
   </component>
