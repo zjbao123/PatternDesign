@@ -27,4 +27,10 @@ public class Rental {
         return movie.getAmount(daysRented);
     }
 
+    public int getFrequentRenterPoints() {
+
+        return movie.calcFrequentPoints(daysRented);
+
+    }
+
 }

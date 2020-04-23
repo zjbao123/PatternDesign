@@ -14,7 +14,7 @@ public class Movie {
     private String title;
     private int priceCode;
 
-    public Movie(String title, int priceCode){
+    public Movie(String title, int priceCode) {
         this.priceCode = priceCode;
         this.title = title;
     }
@@ -53,5 +53,12 @@ public class Movie {
                 break;
         }
         return amount;
+    }
+
+    public int calcFrequentPoints(int daysRented) {
+        if ((priceCode == NEW_RELEASE) && daysRented > 1) {
+            return 2;
+        }
+        return 1;
     }
 }
