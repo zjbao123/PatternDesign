@@ -31,7 +31,7 @@ public class Customer {
         for (Rental rental : rentals) {
             double thisAmount = 0;
             //计算各类积分情况
-            thisAmount = rental.getMovieAmount();
+            thisAmount = rental.calcMovieAmount();
 
             //获取积分情况
             frequentRenterPoints++;

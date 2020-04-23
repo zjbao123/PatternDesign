@@ -22,7 +22,7 @@ public class Rental {
         return daysRented;
     }
 
-    public double getMovieAmount() {
+    public double calcMovieAmount() {
 
         return movie.getAmount(daysRented);
     }
