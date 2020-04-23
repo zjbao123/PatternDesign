@@ -6,70 +6,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8de1ee58-faf5-42e4-b5a8-191404fd5fd7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/refactorcode/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/refactorcode/test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/PatternDesign-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/ApiAuthenticator/Interface/ApiAuthenticator.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/ApiAuthenticator/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/ApiAuthenticator/Repository/CredentialStorage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/ApiAuthenticator/Repository/DefaultCredentialStorageImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/ApiAuthenticator/Repository/MysqlCredentialStorageImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/ApiAuthenticator/domain/AuthToken.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/ApiAuthenticator/impl/ApiAuthenticatorImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/ApiAuthenticator/util/MD5Util.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/ApiAuthenticator/util/UrlUtil$UrlEntity.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/ApiAuthenticator/util/UrlUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/DependencyInjection/ApplicationContext.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/DependencyInjection/BeanConfigParser.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/DependencyInjection/BeanDefinition$ConstructorArg$Builder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/DependencyInjection/BeanDefinition$ConstructorArg.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/DependencyInjection/BeanDefinition$Scope.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/DependencyInjection/BeanDefinition.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/DependencyInjection/BeansFactory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/DependencyInjection/ClassPathXmlApplicationContext.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/DependencyInjection/Exception/NoSuchBeanDefinitionException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/DependencyInjection/RateLimiter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/DependencyInjection/RedisCounter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/DependencyInjection/VisibleForTesting.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/DependencyInjection/XmlBeanConfigParser.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/DependencyInjection/demo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/DynamicProxy/IUserLoginController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/DynamicProxy/UserLoginController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/DynamicProxy/UserLoginProxy$InvocationHandlerImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/DynamicProxy/UserLoginProxy.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/RefactorCode/Customer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/RefactorCode/Movie.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/RefactorCode/Rental.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Singleton/IDGenerator/IDGeneratorDoubleCheck.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Singleton/IDGenerator/IDGeneratorHungry.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Singleton/IDGenerator/IDGeneratorLazy.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Singleton/IDGenerator/IDGeneratorSingleThread.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Singleton/IDGenerator/IDGeneratorStatic$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Singleton/IDGenerator/IDGeneratorStatic$SingletonHolder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Singleton/IDGenerator/IDGeneratorStatic.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Singleton/IDGenerator/IDGeneratorWithParams.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Singleton/IDGenerator/IdGeneratorEnum.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Singleton/Logger/Logger.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Singleton/test.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/config/bean.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/main/java/ApiAuthenticator/domain/ApiRequest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/pdf/2006-OCP-RobertMartin.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PatternDesign.iml" beforeDir="false" afterPath="$PROJECT_DIR$/PatternDesign.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/RefactorCode/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/refactorcode/Movie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/RefactorCode/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/refactorcode/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/RefactorCode/Rental.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/refactorcode/Rental.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/refactorcode/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/refactorcode/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/refactorcode/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/refactorcode/Movie.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -113,6 +52,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -290,7 +230,7 @@
       <workItem from="1587648302396" duration="49000" />
       <workItem from="1587648364671" duration="144000" />
       <workItem from="1587648524329" duration="291000" />
-      <workItem from="1587648851514" duration="2956000" />
+      <workItem from="1587648851514" duration="4192000" />
     </task>
     <servers />
   </component>

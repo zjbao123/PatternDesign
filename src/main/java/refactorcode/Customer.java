@@ -23,32 +23,15 @@ public class Customer {
         return name;
     }
 
+
     public String statement() {
         double totalAmount = 0;
         int frequentRenterPoints = 0;
         String result = "Rental Record for " + getName() + "\n";
         for (Rental rental : rentals) {
             double thisAmount = 0;
-            //各类积分情况
-            switch (rental.getMovie().getPriceCode()) {
-                case Movie.CHILDRENS:
-                    thisAmount += 1.5;
-                    if (rental.getDaysRented() > 3) {
-                        thisAmount += ((rental.getDaysRented() - 3) * 1.5);
-                    }
-                    break;
-                case Movie.REGULAR:
-                    thisAmount += 2;
-                    if (rental.getDaysRented() > 2) {
-                        thisAmount += ((rental.getDaysRented() - 2) * 1.5);
-                    }
-                    break;
-                case Movie.NEW_RELEASE:
-                    thisAmount += rental.getDaysRented() * 3;
-                    break;
-                default:
-                    break;
-            }
+            //计算各类积分情况
+            thisAmount = rental.getMovieAmount();
 
             //获取积分情况
             frequentRenterPoints++;
@@ -67,5 +50,6 @@ public class Customer {
         result += "You earned "+String.valueOf(frequentRenterPoints)+" frequent renter points";
         return result;
     }
+
 }
 
