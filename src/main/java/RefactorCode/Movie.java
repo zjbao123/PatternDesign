@@ -1,4 +1,4 @@
-package RefactorCode;
+package refactorcode;
 
 /**
  * @author zjbao123
